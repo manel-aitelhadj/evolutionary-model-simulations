@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.venv*/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS
+.DS_Store
+
+# HPC outputs
+slurm-*.out
+slurm-*.err
+*.log
+
+# Data and results
+data/
+results/
+logs/
+tmp/
+
+# Large sequencing files
+*.fastq
+*.fastq.gz
+*.bam
+*.cram
+*.vcf.gz
+
+# Archives
+*.zip
+*.tar.gz
